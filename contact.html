@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Четири лапи</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.svg" type="image/jpeg">
+</head>
+<body>
+  
+    <header class="header">
+        <a href="index.html" class="logo"><img src="logo.svg" alt="Chetiri lapi logo" class="nav__logo" id="logo"></a>
+        <nav class="navbar">
+            
+            <a href="index.html"><i class="fa-solid fa-paw"></i> Начало</a>
+            <a href="news.html"><i class="fa-solid fa-paw"></i> Новини</a>
+            <a href="gallery.html"><i class="fa-solid fa-paw"></i> Галерия</a>
+            <a href="about.html"><i class="fa-solid fa-paw"></i> За нас</a>
+            <a href="contact.html"><i class="fa-solid fa-paw"></i> Контакти</a>
+        </nav>
+        <i id="menu-btn" class="fas fa-bars"></i>
+    </header>
+    
+   <div class="content-wrapper">
+        <h1>Контакти</h1>
+        <div class="contact-info">
+            <h2>Фондация ЧЕТИРИ ЛАПИ</h2>
+            <p><strong>Офис:</strong> ул. "Пиротска" №8, вх. А, ет. 1, София 1000</p>
+            <p><strong>Тел.:</strong> +359 2 953 17 84</p>
+            <p><strong>Факс:</strong> +359 2 952 11 98</p>
+            <p><strong>E-mail:</strong> <a href="mailto:office@four-paws.bg">office@four-paws.bg</a></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.1965460208585!2d23.3205407!3d42.69955889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8568e97ffffd%3A0xbb387a7b613d1149!2z0KHQvtGE0LjRjyDRhtC10L3RgtGK0YAsINGD0LsuIOKAntCf0LjRgNC-0YLRgdC60LDigJwgOCwg0LLRhS7QkCwg0LXRgi4xLCAxMDAwINCh0L7RhNC40Y8!5e0!3m2!1sbg!2sbg!4v1736060175796!5m2!1sbg!2sbg" align="middle" width="100%" height="250"></iframe>
+
+            <h2>Ветеринарна клиника "Четири лапи"</h2>
+            <p><strong>гр. Банкя:</strong> ул. "Александър Стамболийски" 37</p>
+            <p><strong>Тел.:</strong> +359 888 40 44 47</p>
+            <p><strong>E-mail:</strong> <a href="mailto:clinic@four-paws.bg">clinic@four-paws.bg</a></p>
+        </div>
+
+        <form>
+            <h2>Кажи ни кой си</h2>
+            <label for="name">Име*</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Фамилия*</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="email">И-мейл*</label>
+            <input type="email" id="email" name="email" required>
+
+            <h2 class="h22">Как можем да бъдем полезни?</h2>
+            <label for="topic">Изберете тема</label>
+            <select id="topic" name="topic" required>
+                <option value="">-- Изберете тема --</option>
+                <option value="general">Общи въпроси</option>
+                <option value="support">Подкрепа</option>
+                <option value="clinic">Клиника</option>
+            </select>
+
+            <label for="message">Твоето съобщение</label>
+            <textarea id="message" name="message" rows="3" required></textarea>
+
+            <div class="captcha">
+                <label for="message">В процес на потвърждение</label>
+                <img src="captcha.png" alt="Captcha">
+            </div>
+
+            <p class="privacy">Защитата на личните данни е важна за нас. С натискането на "ИЗПРАТИ", ти се съгласяваш с нашата <a href="#">политика за защита на личните данни</a>.</p>
+
+            <button type="submit">ИЗПРАТИ</button>
+        </form>
+    </div>
+   
+ <section class="footer">
+        <div class="footer-content">
+           <h3><i class="fa-solid fa-paw"></i> Четири <span>лапи</span></h3> 
+           <ul class="socials">
+            <li><a href=”#”><i class="fa fa-facebook"></i></a></li>
+            <li><a href=”#”><i class="fa fa-twitter"></i></a></li>
+            <li><a href=”#”><i class="fa-brands fa-google-plus-g"></i></a></li>
+            <li><a href=”#”><i class="fa fa-youtube"></i></a></li>
+            <li><a href=”#”><i class="fa fa-instagram"></i></a></li>
+         </ul>
+         <h4>Фондация ЧЕТИРИ ЛАПИ <br> Адрес: София 1000 ул."Пиротска"8, вх.А, ет.1, office@four-paws.bg, Тел: +359 2 953 17 84</h4>
+        </div>
+    </section>
+
+    <section class="footer-bottom">
+      
+        <nav class="navbar">
+            <a href="index.html"><i class="fa-solid fa-paw"></i> Начало</a>
+            <a href="news.html"><i class="fa-solid fa-paw"></i> Новини</a>
+            <a href="gallery.html"><i class="fa-solid fa-paw"></i> Галерия</a>
+            <a href="about.html"><i class="fa-solid fa-paw"></i> За нас</a>
+            <a href="contact.html"><i class="fa-solid fa-paw"></i> Контакти</a>
+        </nav>
+       <p>ИУ - Варна &copy; <a href=”index.html”>Цветелина Мошева</a> 2025</p>
+    </section>
+    <script src="https://kit.fontawesome.com/cb8535f973.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
